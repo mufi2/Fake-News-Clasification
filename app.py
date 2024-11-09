@@ -21,13 +21,13 @@ nltk.download("stopwords")
 
 # Load the models and vectorizer from the specified directory
 tfidf = pickle.load(
-    open("D:\\Projects\\Fake News Detection\\Model\\vectorizer.pkl", "rb")
+    open("vectorizer.pkl", "rb")
 )
 XGB_model = pickle.load(
-    open("D:\\Projects\\Fake News Detection\\Model\\Xgb_model.pkl", "rb")
+    open("Xgb_model.pkl", "rb")
 )
 model_title = pickle.load(
-    open("D:\\Projects\\Fake News Detection\\Model\\title_model.pkl", "rb")
+    open("title_model.pkl", "rb")
 )
 
 
